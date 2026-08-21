@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jadwal Kuliah Semester 5</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Jadwal Kuliah Semester 5</h1>
+</header>
+
+<nav aria-label="Navigasi hari">
+  <ul class="day-tabs">
+    <li><button class="tab-btn active" data-day="senin">Senin</button></li>
+    <li><button class="tab-btn" data-day="selasa">Selasa</button></li>
+    <li><button class="tab-btn" data-day="rabu">Rabu</button></li>
+    <li><button class="tab-btn" data-day="kamis">Kamis</button></li>
+    <li><button class="tab-btn" data-day="jumat">Jumat</button></li>
+    <li><button class="tab-btn" data-day="sabtu">Sabtu</button></li>
+    <li><button class="tab-btn" data-day="minggu">Minggu</button></li>
+  </ul>
+</nav>
+
+<main>
+  <section id="senin" class="day-schedule active" aria-labelledby="senin-heading">
+    <h2 id="senin-heading">Senin</h2>
+    <p class="empty">Tidak ada jadwal.</p>
+  </section>
+
+  <section id="selasa" class="day-schedule" aria-labelledby="selasa-heading">
+    <h2 id="selasa-heading">Selasa</h2>
+    <ul class="schedule-list">
+      <li class="schedule-item" tabindex="0">
+        <div class="schedule-summary">
+          <span class="course-name">TI506 Manajemen Proyek - Kelas A</span>
+          <time class="course-time">07.50 - 10.30</time>
+        </div>
+        <div class="schedule-detail" role="tooltip">
+          <p><strong>Mata Kuliah:</strong> TI506 Manajemen Proyek - Kelas A</p>
+          <p><strong>Jadwal:</strong> 07.50 - 10.30 (Sesi 1 &amp; 2)</p>
+          <p><strong>Ruang:</strong> F4.001</p>
+          <p><strong>Dosen:</strong> HQ</p>
+        </div>
+      </li>
+      <li class="schedule-item" tabindex="0">
+        <div class="schedule-summary">
+          <span class="course-name">TI508 Technopreneurship - Kelas A</span>
+          <time class="course-time">13.20 - 15.00</time>
+        </div>
+        <div class="schedule-detail" role="tooltip">
+          <p><strong>Mata Kuliah:</strong> TI508 Technopreneurship - Kelas A</p>
+          <p><strong>Jadwal:</strong> 13.20 - 15.00 (Sesi 5)</p>
+          <p><strong>Ruang:</strong> F4.001</p>
+          <p><strong>Dosen:</strong> FF</p>
+        </div>
+      </li>
+      <li class="schedule-item" tabindex="0">
+        <div class="schedule-summary">
+          <span class="course-name">TI504 WAN dan Teknologi Jaringan - Kelas C</span>
+          <time class="course-time">15.30 - 17.10</time>
+        </div>
+        <div class="schedule-detail" role="tooltip">
+          <p><strong>Mata Kuliah:</strong> TI504 WAN dan Teknologi Jaringan - Kelas C</p>
+          <p><strong>Jadwal:</strong> 15.30 - 17.10 (Sesi 6)</p>
+          <p><strong>Ruang:</strong> F4.001</p>
+          <p><strong>Dosen:</strong> FF</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section id="rabu" class="day-schedule" aria-labelledby="rabu-heading">
+    <h2 id="rabu-heading">Rabu</h2>
+    <p class="empty">Tidak ada jadwal.</p>
+  </section>
+
+  <section id="kamis" class="day-schedule" aria-labelledby="kamis-heading">
+    <h2 id="kamis-heading">Kamis</h2>
+    <ul class="schedule-list">
+      <li class="schedule-item" tabindex="0">
+        <div class="schedule-summary">
+          <span class="course-name">TI502 Pengembangan Aplikasi Mobile - Kelas B</span>
+          <time class="course-time">08.50 - 11.30</time>
+        </div>
+        <div class="schedule-detail" role="tooltip">
+          <p><strong>Mata Kuliah:</strong> TI502 Pengembangan Aplikasi Mobile - Kelas B</p>
+          <p><strong>Jadwal:</strong> 08.50 - 11.30 (Sesi 2 &amp; 3)</p>
+          <p><strong>Ruang:</strong> F4.002</p>
+          <p><strong>Dosen:</strong> HS</p>
+        </div>
+      </li>
+      <li class="schedule-item" tabindex="0">
+        <div class="schedule-summary">
+          <span class="course-name">TI505 Tata Kelola Teknologi Informasi - Kelas A</span>
+          <time class="course-time">13.20 - 16.20</time>
+        </div>
+        <div class="schedule-detail" role="tooltip">
+          <p><strong>Mata Kuliah:</strong> TI505 Tata Kelola Teknologi Informasi - Kelas A</p>
+          <p><strong>Jadwal:</strong> 13.20 - 15.00 (Sesi 5) &amp; 15.30 - 16.20 (Sesi 6)</p>
+          <p><strong>Ruang:</strong> RKBesar / F6.001 (Gabungan Kelas A, B, C)</p>
+          <p><strong>Dosen:</strong> CO</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section id="jumat" class="day-schedule" aria-labelledby="jumat-heading">
+    <h2 id="jumat-heading">Jumat</h2>
+    <p class="empty">Tidak ada jadwal.</p>
+  </section>
+
+  <section id="sabtu" class="day-schedule" aria-labelledby="sabtu-heading">
+    <h2 id="sabtu-heading">Sabtu</h2>
+    <ul class="schedule-list">
+      <li class="schedule-item" tabindex="0">
+        <div class="schedule-summary">
+          <span class="course-name">TI507 Bahasa Inggris untuk Membaca Naskah Akademik - Kelas A</span>
+          <time class="course-time">10.40 - 13.10</time>
+        </div>
+        <div class="schedule-detail" role="tooltip">
+          <p><strong>Mata Kuliah:</strong> TI507 Bahasa Inggris untuk Membaca Naskah Akademik - Kelas A</p>
+          <p><strong>Jadwal:</strong> 10.40 - 11.30 (Sesi 3) &amp; 12.10 - 13.10 (Sesi 4)</p>
+          <p><strong>Ruang:</strong> F6.103</p>
+          <p><strong>Dosen:</strong> TW</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section id="minggu" class="day-schedule" aria-labelledby="minggu-heading">
+    <h2 id="minggu-heading">Minggu</h2>
+    <p class="empty">Tidak ada jadwal.</p>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
