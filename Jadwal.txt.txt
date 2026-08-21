@@ -1,84 +1,78 @@
-* **Selasa**
+**ZAKI**
 
-* **TI506 Manajemen Proyek - Kelas A**
+**SELASA**
 
-* Jam: 07.50 - 10.30 (Sesi 1 & 2)
+1. nama matkul: management proyek
+Waktu: 07.50-10.30
+kelas: A
+ruang: TI506
+dosen: HQ
+2. nama matkul: technopreneurship
+Waktu: 13.20-15.00
+kelas: A
+ruang: TI508
+dosen:
+3. nama matkul: WAN dan teknologi jaringan
+Waktu: 15.30-17.00
+kelas: C
+ruang: TI 504
+dosen:
 
+**KAMIS**
 
-* Ruang: F4.001
+1. nama matkul: pengembangan aplikasi mobile
+Waktu: 08.50-11.30
+kelas: B
+ruang: TI502
+dosen:
+2. nama matkul: tata kelola teknologi informasi
+Waktu: 13.20-16.20
+kelas: A
+ruang: TI505
+dosen:
 
+**AMEL**
 
-* Dosen: HQ
+**SENIN**
 
+1. nama matkul: filantropi islam
+Waktu: 07.00-09.30
+ruang: 334
+dosen: pak agus
 
+**SELASA**
 
+1. nama matkul: sosiologi budaya
+Waktu: 07.00-09.30
+ruang: 110b
+dosen: pak agus
+2. nama matkul: teknologi dan masyarakat digital
+Waktu: 09.40-12.10
+ruang: 223b
+dosen: bu nisrina
+3. nama matkul: konflik dan rekonstruksi sosial
+Waktu: 15.40-18.10
+ruang: 110b
+dosen: bu pipit
 
-* **TI508 Technopreneurship - Kelas A**
+**RABU**
 
-* Jam: 13.20 - 15.00 (Sesi 5)
+1. nama matkul: analisis gender
+Waktu: 13.00-15.30
+ruang: 110b
+dosen: bu nap
+2. nama matkul: analisis data kualitatif
+Waktu: 15.40-18.10
+ruang: 324
+dosen: pak uzair
 
+**KAMIS**
 
-* Ruang: F4.001
-
-
-* Dosen: FF
-
-
-
-
-* **TI504 WAN dan Teknologi Jaringan - Kelas C**
-
-* Jam: 15.30 - 17.10 (Sesi 6)
-
-
-* Ruang: F4.001
-
-
-* Dosen: FF
-
-
-
-
-
-
-* **Kamis**
-
-* **TI502 Pengembangan Aplikasi Mobile - Kelas B**
-
-* Jam: 08.50 - 11.30 (Sesi 2 & 3)
-
-
-* Ruang: F4.002
-
-
-* Dosen: HS
-
-
-
-
-* **TI505 Tata Kelola Teknologi Informasi - Kelas A**
-
-* Jam: 13.20 - 15.00 (Sesi 5) & 15.30 - 16.20 (Sesi 6)
-
-
-* Ruang: RKBesar / F6.001 (Gabungan Kelas A, B, C)
-
-
-* Dosen: CO
-
-
-
-
-
-
-* **Sabtu**
-
-* **TI507 Bahasa Inggris untuk Membaca Naskah Akademik - Kelas A**
-
-* Jam: 10.40 - 11.30 (Sesi 3) & 12.10 - 13.10 (Sesi 4)
-
-
-* Ruang: F6.103
-
-
-* Dosen: TW
+1. nama matkul: demografi sosial
+Waktu: 09.40-12.10
+ruang: 108
+dosen: bu astri
+2. nama matkul: gerakan sosial keagamaan
+Waktu: 15.40-18.10
+ruang: 323
+dosen: pak andri

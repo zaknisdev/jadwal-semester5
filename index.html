@@ -4,135 +4,282 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jadwal Kuliah Semester 5</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<header>
-  <h1>Jadwal Kuliah Semester 5</h1>
-</header>
+<body class="person-zaki">
+<div class="top-bar">
+  <header>
+    <h1>Jadwal Kuliah Semester 5</h1>
 
-<nav aria-label="Navigasi hari">
-  <ul class="day-tabs">
-    <li><button class="tab-btn active" data-day="senin">Senin</button></li>
-    <li><button class="tab-btn" data-day="selasa">Selasa</button></li>
-    <li><button class="tab-btn" data-day="rabu">Rabu</button></li>
-    <li><button class="tab-btn" data-day="kamis">Kamis</button></li>
-    <li><button class="tab-btn" data-day="jumat">Jumat</button></li>
-    <li><button class="tab-btn" data-day="sabtu">Sabtu</button></li>
-    <li><button class="tab-btn" data-day="minggu">Minggu</button></li>
-  </ul>
-</nav>
+    <div class="person-switch" role="group" aria-label="Pilih pemilik jadwal">
+      <button type="button" class="person-btn" data-person="zaki" aria-pressed="true">
+        <span class="person-icon" aria-hidden="true">⚡</span> Zaki
+      </button>
+      <button type="button" class="person-btn" data-person="amel" aria-pressed="false">
+        <span class="person-icon" aria-hidden="true">🍌</span> Amel
+      </button>
+    </div>
+  </header>
+
+  <nav aria-label="Navigasi hari">
+    <ul class="day-tabs">
+      <li><button class="tab-btn active" data-day="senin">Senin</button></li>
+      <li><button class="tab-btn" data-day="selasa">Selasa</button></li>
+      <li><button class="tab-btn" data-day="rabu">Rabu</button></li>
+      <li><button class="tab-btn" data-day="kamis">Kamis</button></li>
+      <li><button class="tab-btn" data-day="jumat">Jumat</button></li>
+      <li><button class="tab-btn" data-day="sabtu">Sabtu</button></li>
+      <li><button class="tab-btn" data-day="minggu">Minggu</button></li>
+    </ul>
+  </nav>
+</div>
 
 <main>
-  <section id="senin" class="day-schedule active" aria-labelledby="senin-heading">
-    <h2 id="senin-heading">Senin</h2>
+
+  <!-- ==================== ZAKI ==================== -->
+
+  <section class="day-schedule active" data-person="zaki" data-day="senin" aria-labelledby="zaki-senin-heading">
+    <h2 id="zaki-senin-heading">Senin</h2>
     <p class="empty">Tidak ada jadwal.</p>
   </section>
 
-  <section id="selasa" class="day-schedule" aria-labelledby="selasa-heading">
-    <h2 id="selasa-heading">Selasa</h2>
+  <section class="day-schedule" data-person="zaki" data-day="selasa" aria-labelledby="zaki-selasa-heading">
+    <h2 id="zaki-selasa-heading">Selasa</h2>
     <ul class="schedule-list">
       <li class="schedule-item" tabindex="0" role="button" aria-expanded="false">
         <div class="schedule-summary">
-          <span class="course-name">TI506 Manajemen Proyek - Kelas A</span>
+          <span class="course-name">Manajemen Proyek <span class="course-class">Kelas A</span></span>
           <time class="course-time">07.50 - 10.30</time>
         </div>
         <div class="schedule-detail" role="tooltip">
-          <p><strong>Mata Kuliah:</strong> TI506 Manajemen Proyek - Kelas A</p>
-          <p><strong>Jadwal:</strong> 07.50 - 10.30 (Sesi 1 &amp; 2)</p>
-          <p><strong>Ruang:</strong> F4.001</p>
+          <p><strong>Mata Kuliah:</strong> Manajemen Proyek</p>
+          <p><strong>Waktu:</strong> 07.50 - 10.30</p>
+          <p><strong>Kelas:</strong> A</p>
+          <p><strong>Ruang:</strong> TI506</p>
           <p><strong>Dosen:</strong> HQ</p>
         </div>
       </li>
       <li class="schedule-item" tabindex="0" role="button" aria-expanded="false">
         <div class="schedule-summary">
-          <span class="course-name">TI508 Technopreneurship - Kelas A</span>
+          <span class="course-name">Technopreneurship <span class="course-class">Kelas A</span></span>
           <time class="course-time">13.20 - 15.00</time>
         </div>
         <div class="schedule-detail" role="tooltip">
-          <p><strong>Mata Kuliah:</strong> TI508 Technopreneurship - Kelas A</p>
-          <p><strong>Jadwal:</strong> 13.20 - 15.00 (Sesi 5)</p>
-          <p><strong>Ruang:</strong> F4.001</p>
-          <p><strong>Dosen:</strong> FF</p>
+          <p><strong>Mata Kuliah:</strong> Technopreneurship</p>
+          <p><strong>Waktu:</strong> 13.20 - 15.00</p>
+          <p><strong>Kelas:</strong> A</p>
+          <p><strong>Ruang:</strong> TI508</p>
+          <p><strong>Dosen:</strong> -</p>
         </div>
       </li>
       <li class="schedule-item" tabindex="0" role="button" aria-expanded="false">
         <div class="schedule-summary">
-          <span class="course-name">TI504 WAN dan Teknologi Jaringan - Kelas C</span>
-          <time class="course-time">15.30 - 17.10</time>
+          <span class="course-name">WAN dan Teknologi Jaringan <span class="course-class">Kelas C</span></span>
+          <time class="course-time">15.30 - 17.00</time>
         </div>
         <div class="schedule-detail" role="tooltip">
-          <p><strong>Mata Kuliah:</strong> TI504 WAN dan Teknologi Jaringan - Kelas C</p>
-          <p><strong>Jadwal:</strong> 15.30 - 17.10 (Sesi 6)</p>
-          <p><strong>Ruang:</strong> F4.001</p>
-          <p><strong>Dosen:</strong> FF</p>
+          <p><strong>Mata Kuliah:</strong> WAN dan Teknologi Jaringan</p>
+          <p><strong>Waktu:</strong> 15.30 - 17.00</p>
+          <p><strong>Kelas:</strong> C</p>
+          <p><strong>Ruang:</strong> TI 504</p>
+          <p><strong>Dosen:</strong> -</p>
         </div>
       </li>
     </ul>
   </section>
 
-  <section id="rabu" class="day-schedule" aria-labelledby="rabu-heading">
-    <h2 id="rabu-heading">Rabu</h2>
+  <section class="day-schedule" data-person="zaki" data-day="rabu" aria-labelledby="zaki-rabu-heading">
+    <h2 id="zaki-rabu-heading">Rabu</h2>
     <p class="empty">Tidak ada jadwal.</p>
   </section>
 
-  <section id="kamis" class="day-schedule" aria-labelledby="kamis-heading">
-    <h2 id="kamis-heading">Kamis</h2>
+  <section class="day-schedule" data-person="zaki" data-day="kamis" aria-labelledby="zaki-kamis-heading">
+    <h2 id="zaki-kamis-heading">Kamis</h2>
     <ul class="schedule-list">
       <li class="schedule-item" tabindex="0" role="button" aria-expanded="false">
         <div class="schedule-summary">
-          <span class="course-name">TI502 Pengembangan Aplikasi Mobile - Kelas B</span>
+          <span class="course-name">Pengembangan Aplikasi Mobile <span class="course-class">Kelas B</span></span>
           <time class="course-time">08.50 - 11.30</time>
         </div>
         <div class="schedule-detail" role="tooltip">
-          <p><strong>Mata Kuliah:</strong> TI502 Pengembangan Aplikasi Mobile - Kelas B</p>
-          <p><strong>Jadwal:</strong> 08.50 - 11.30 (Sesi 2 &amp; 3)</p>
-          <p><strong>Ruang:</strong> F4.002</p>
-          <p><strong>Dosen:</strong> HS</p>
+          <p><strong>Mata Kuliah:</strong> Pengembangan Aplikasi Mobile</p>
+          <p><strong>Waktu:</strong> 08.50 - 11.30</p>
+          <p><strong>Kelas:</strong> B</p>
+          <p><strong>Ruang:</strong> TI502</p>
+          <p><strong>Dosen:</strong> -</p>
         </div>
       </li>
       <li class="schedule-item" tabindex="0" role="button" aria-expanded="false">
         <div class="schedule-summary">
-          <span class="course-name">TI505 Tata Kelola Teknologi Informasi - Kelas A</span>
+          <span class="course-name">Tata Kelola Teknologi Informasi <span class="course-class">Kelas A</span></span>
           <time class="course-time">13.20 - 16.20</time>
         </div>
         <div class="schedule-detail" role="tooltip">
-          <p><strong>Mata Kuliah:</strong> TI505 Tata Kelola Teknologi Informasi - Kelas A</p>
-          <p><strong>Jadwal:</strong> 13.20 - 15.00 (Sesi 5) &amp; 15.30 - 16.20 (Sesi 6)</p>
-          <p><strong>Ruang:</strong> RKBesar / F6.001 (Gabungan Kelas A, B, C)</p>
-          <p><strong>Dosen:</strong> CO</p>
+          <p><strong>Mata Kuliah:</strong> Tata Kelola Teknologi Informasi</p>
+          <p><strong>Waktu:</strong> 13.20 - 16.20</p>
+          <p><strong>Kelas:</strong> A</p>
+          <p><strong>Ruang:</strong> TI505</p>
+          <p><strong>Dosen:</strong> -</p>
         </div>
       </li>
     </ul>
   </section>
 
-  <section id="jumat" class="day-schedule" aria-labelledby="jumat-heading">
-    <h2 id="jumat-heading">Jumat</h2>
+  <section class="day-schedule" data-person="zaki" data-day="jumat" aria-labelledby="zaki-jumat-heading">
+    <h2 id="zaki-jumat-heading">Jumat</h2>
     <p class="empty">Tidak ada jadwal.</p>
   </section>
 
-  <section id="sabtu" class="day-schedule" aria-labelledby="sabtu-heading">
-    <h2 id="sabtu-heading">Sabtu</h2>
+  <section class="day-schedule" data-person="zaki" data-day="sabtu" aria-labelledby="zaki-sabtu-heading">
+    <h2 id="zaki-sabtu-heading">Sabtu</h2>
+    <p class="empty">Tidak ada jadwal.</p>
+  </section>
+
+  <section class="day-schedule" data-person="zaki" data-day="minggu" aria-labelledby="zaki-minggu-heading">
+    <h2 id="zaki-minggu-heading">Minggu</h2>
+    <p class="empty">Tidak ada jadwal.</p>
+  </section>
+
+  <!-- ==================== AMEL ==================== -->
+
+  <section class="day-schedule" data-person="amel" data-day="senin" aria-labelledby="amel-senin-heading">
+    <h2 id="amel-senin-heading">Senin</h2>
     <ul class="schedule-list">
       <li class="schedule-item" tabindex="0" role="button" aria-expanded="false">
         <div class="schedule-summary">
-          <span class="course-name">TI507 Bahasa Inggris untuk Membaca Naskah Akademik - Kelas A</span>
-          <time class="course-time">10.40 - 13.10</time>
+          <span class="course-name">Filantropi Islam</span>
+          <time class="course-time">07.00 - 09.30</time>
         </div>
         <div class="schedule-detail" role="tooltip">
-          <p><strong>Mata Kuliah:</strong> TI507 Bahasa Inggris untuk Membaca Naskah Akademik - Kelas A</p>
-          <p><strong>Jadwal:</strong> 10.40 - 11.30 (Sesi 3) &amp; 12.10 - 13.10 (Sesi 4)</p>
-          <p><strong>Ruang:</strong> F6.103</p>
-          <p><strong>Dosen:</strong> TW</p>
+          <p><strong>Mata Kuliah:</strong> Filantropi Islam</p>
+          <p><strong>Waktu:</strong> 07.00 - 09.30</p>
+          <p><strong>Ruang:</strong> 334</p>
+          <p><strong>Dosen:</strong> Pak Agus</p>
         </div>
       </li>
     </ul>
   </section>
 
-  <section id="minggu" class="day-schedule" aria-labelledby="minggu-heading">
-    <h2 id="minggu-heading">Minggu</h2>
+  <section class="day-schedule" data-person="amel" data-day="selasa" aria-labelledby="amel-selasa-heading">
+    <h2 id="amel-selasa-heading">Selasa</h2>
+    <ul class="schedule-list">
+      <li class="schedule-item" tabindex="0" role="button" aria-expanded="false">
+        <div class="schedule-summary">
+          <span class="course-name">Sosiologi Budaya</span>
+          <time class="course-time">07.00 - 09.30</time>
+        </div>
+        <div class="schedule-detail" role="tooltip">
+          <p><strong>Mata Kuliah:</strong> Sosiologi Budaya</p>
+          <p><strong>Waktu:</strong> 07.00 - 09.30</p>
+          <p><strong>Ruang:</strong> 110B</p>
+          <p><strong>Dosen:</strong> Pak Agus</p>
+        </div>
+      </li>
+      <li class="schedule-item" tabindex="0" role="button" aria-expanded="false">
+        <div class="schedule-summary">
+          <span class="course-name">Teknologi dan Masyarakat Digital</span>
+          <time class="course-time">09.40 - 12.10</time>
+        </div>
+        <div class="schedule-detail" role="tooltip">
+          <p><strong>Mata Kuliah:</strong> Teknologi dan Masyarakat Digital</p>
+          <p><strong>Waktu:</strong> 09.40 - 12.10</p>
+          <p><strong>Ruang:</strong> 223B</p>
+          <p><strong>Dosen:</strong> Bu Nisrina</p>
+        </div>
+      </li>
+      <li class="schedule-item" tabindex="0" role="button" aria-expanded="false">
+        <div class="schedule-summary">
+          <span class="course-name">Konflik dan Rekonstruksi Sosial</span>
+          <time class="course-time">15.40 - 18.10</time>
+        </div>
+        <div class="schedule-detail" role="tooltip">
+          <p><strong>Mata Kuliah:</strong> Konflik dan Rekonstruksi Sosial</p>
+          <p><strong>Waktu:</strong> 15.40 - 18.10</p>
+          <p><strong>Ruang:</strong> 110B</p>
+          <p><strong>Dosen:</strong> Bu Pipit</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="day-schedule" data-person="amel" data-day="rabu" aria-labelledby="amel-rabu-heading">
+    <h2 id="amel-rabu-heading">Rabu</h2>
+    <ul class="schedule-list">
+      <li class="schedule-item" tabindex="0" role="button" aria-expanded="false">
+        <div class="schedule-summary">
+          <span class="course-name">Analisis Gender</span>
+          <time class="course-time">13.00 - 15.30</time>
+        </div>
+        <div class="schedule-detail" role="tooltip">
+          <p><strong>Mata Kuliah:</strong> Analisis Gender</p>
+          <p><strong>Waktu:</strong> 13.00 - 15.30</p>
+          <p><strong>Ruang:</strong> 110B</p>
+          <p><strong>Dosen:</strong> Bu Nap</p>
+        </div>
+      </li>
+      <li class="schedule-item" tabindex="0" role="button" aria-expanded="false">
+        <div class="schedule-summary">
+          <span class="course-name">Analisis Data Kualitatif</span>
+          <time class="course-time">15.40 - 18.10</time>
+        </div>
+        <div class="schedule-detail" role="tooltip">
+          <p><strong>Mata Kuliah:</strong> Analisis Data Kualitatif</p>
+          <p><strong>Waktu:</strong> 15.40 - 18.10</p>
+          <p><strong>Ruang:</strong> 324</p>
+          <p><strong>Dosen:</strong> Pak Uzair</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="day-schedule" data-person="amel" data-day="kamis" aria-labelledby="amel-kamis-heading">
+    <h2 id="amel-kamis-heading">Kamis</h2>
+    <ul class="schedule-list">
+      <li class="schedule-item" tabindex="0" role="button" aria-expanded="false">
+        <div class="schedule-summary">
+          <span class="course-name">Demografi Sosial</span>
+          <time class="course-time">09.40 - 12.10</time>
+        </div>
+        <div class="schedule-detail" role="tooltip">
+          <p><strong>Mata Kuliah:</strong> Demografi Sosial</p>
+          <p><strong>Waktu:</strong> 09.40 - 12.10</p>
+          <p><strong>Ruang:</strong> 108</p>
+          <p><strong>Dosen:</strong> Bu Astri</p>
+        </div>
+      </li>
+      <li class="schedule-item" tabindex="0" role="button" aria-expanded="false">
+        <div class="schedule-summary">
+          <span class="course-name">Gerakan Sosial Keagamaan</span>
+          <time class="course-time">15.40 - 18.10</time>
+        </div>
+        <div class="schedule-detail" role="tooltip">
+          <p><strong>Mata Kuliah:</strong> Gerakan Sosial Keagamaan</p>
+          <p><strong>Waktu:</strong> 15.40 - 18.10</p>
+          <p><strong>Ruang:</strong> 323</p>
+          <p><strong>Dosen:</strong> Pak Andri</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="day-schedule" data-person="amel" data-day="jumat" aria-labelledby="amel-jumat-heading">
+    <h2 id="amel-jumat-heading">Jumat</h2>
     <p class="empty">Tidak ada jadwal.</p>
   </section>
+
+  <section class="day-schedule" data-person="amel" data-day="sabtu" aria-labelledby="amel-sabtu-heading">
+    <h2 id="amel-sabtu-heading">Sabtu</h2>
+    <p class="empty">Tidak ada jadwal.</p>
+  </section>
+
+  <section class="day-schedule" data-person="amel" data-day="minggu" aria-labelledby="amel-minggu-heading">
+    <h2 id="amel-minggu-heading">Minggu</h2>
+    <p class="empty">Tidak ada jadwal.</p>
+  </section>
+
 </main>
 
 <script src="script.js"></script>
