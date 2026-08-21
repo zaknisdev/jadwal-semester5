@@ -31,6 +31,14 @@ kelas: A
 ruang: TI505
 dosen:
 
+**SABTU**
+
+1. nama matkul: bahasa inggris untuk membaca naskah akademik
+Waktu: 10.40-11.30 (Sesi 3) & 12.10-13.10 (Sesi 4)
+kelas: A
+ruang: F6.103
+dosen: TW
+
 **AMEL**
 
 **SENIN**
