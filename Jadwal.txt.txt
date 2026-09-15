@@ -5,17 +5,17 @@
 1. nama matkul: management proyek
 Waktu: 07.50-10.30
 kelas: A
-ruang: TI506
+ruang: F4 001
 dosen: HQ
 2. nama matkul: technopreneurship
 Waktu: 13.20-15.00
 kelas: A
-ruang: TI508
+ruang: F4 001
 dosen:
 3. nama matkul: WAN dan teknologi jaringan
 Waktu: 15.30-17.00
 kelas: C
-ruang: TI 504
+ruang: F4 001
 dosen:
 
 **KAMIS**
@@ -23,12 +23,12 @@ dosen:
 1. nama matkul: pengembangan aplikasi mobile
 Waktu: 08.50-11.30
 kelas: B
-ruang: TI502
+ruang: F4 002
 dosen:
 2. nama matkul: tata kelola teknologi informasi
 Waktu: 13.20-16.20
 kelas: A
-ruang: TI505
+ruang: F6 001
 dosen:
 
 **SABTU**
