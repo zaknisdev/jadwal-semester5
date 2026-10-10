@@ -18,6 +18,24 @@ kelas: C
 ruang: F4 001
 dosen:
 
+**RABU**
+
+1. nama matkul: Bahasa Inggris untuk Penulisan Naskah Akademik
+Waktu: 07.00-08.40
+kelas: A
+ruang: F4.01
+dosen: Titis Wisnu Wijaya; Rochmat Susanto
+2. nama matkul: Pengembangan Game
+Waktu: 08.50-10.30
+kelas: A
+ruang: F6.002
+dosen: Reza Giga Isnanda
+3. nama matkul: Praktikum Pengembangan Game
+Waktu: 10.40-11.30
+kelas: A
+ruang: F6.002
+dosen: Reza Giga Isnanda
+
 **KAMIS**
 
 1. nama matkul: pengembangan aplikasi mobile
